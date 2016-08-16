@@ -1,0 +1,28 @@
+/**  Header Navigation **/
+
+header .navbar {
+  margin-bottom: 0;
+}
+
+header .navbar-default {
+  background-color: #337ab7;
+  border: none;
+  border-radius: 0;
+  padding: 10px 0;
+}
+
+/**  Navbar Brand **/
+
+header .navbar-brand {
+/*  background: url(../images/wisdompetlogo.svg);*/
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+}
+
+header .navbar-brand h1 {
+  color: white;
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-left: 70px;
+}
