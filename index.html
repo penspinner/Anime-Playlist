@@ -4,9 +4,25 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Anime Playlist with React</title>
+        <title>Anime List with React</title>
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="css/style.css">
+        
+        <!-- React -->
+        <script src="https://npmcdn.com/react@15.3.0/dist/react.js"></script>
+        <script src="https://npmcdn.com/react-dom@15.3.0/dist/react-dom.js"></script>
+        <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+        
+        <!-- Lodash -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.js"></script>
     </head>
 
     <body>
@@ -15,7 +31,7 @@
             <nav class="navbar navbar-default" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#"><h1>Anime Playlist</h1></a>
+                        <a class="navbar-brand" href="#"><h1>Anime List</h1></a>
                     </div>
                 </div>
             </nav>
@@ -26,7 +42,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div id="animePlaylist"></div>
+                            <div id="animeList"></div>
                         </div>
                     </div>
                 </div>
@@ -37,17 +53,22 @@
             <div class="content container-fluid">
                 <div class="row">
                     <div class="col-sm-6">
-
+                        Created by Steven Liao.
                     </div>
                     <div class="col-sm-6">
                         <nav class="navbar navbar-default" role="navigation">
                             <ul class="nav navbar-nav navbar-right">
+                                <li><a href="http://stevenliao.tech">Visit my website.</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
             </div>
         </footer>
+        <script type="text/babel" src="js/AddAnime.js"></script>
+        <script type="text/babel" src="js/AnimeList.js"></script>
+        <script type="text/babel" src="js/SearchAnimes.js"></script>
+        <script type="text/babel" src="js/AnimeListApp.js"></script>
     </body>
 
 </html>

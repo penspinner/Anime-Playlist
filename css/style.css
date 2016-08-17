@@ -5,7 +5,7 @@ header .navbar {
 }
 
 header .navbar-default {
-  background-color: #337ab7;
+  background-color: darkblue;
   border: none;
   border-radius: 0;
   padding: 10px 0;
@@ -25,4 +25,96 @@ header .navbar-brand h1 {
   font-size: 1.1em;
   font-weight: 400;
   padding-left: 70px;
+}
+
+/** Footer **/
+
+footer {
+  background: darkblue;
+  color: white;
+  font-size: .8em;
+  padding: 20px 0 40px 0;
+}
+
+footer a {
+  color: #E0E6AE;
+}
+
+footer a:hover {
+  color: #EEC856 !important;
+}
+
+footer .phone {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #E0E6AE;
+}
+
+footer .navbar {
+  margin-bottom: 0;
+  min-height: 0;
+}
+
+footer .navbar-default {
+  background-color: transparent;
+  border: none;
+  margin-right: 40px;
+}
+
+footer .navbar-nav>li a {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-decoration: underline;
+  color: #EEC856 !important;
+}
+
+/**  Interface Styles **/
+
+.apt-addheading {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+
+.item-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 10px 5%;
+  font-size: 1rem;
+}
+
+.item-list .anime-item {
+  border-bottom: 1px dotted gray;
+  padding-bottom: 10px;
+}
+
+.item-list .anime-item:last-child {
+  border-bottom: none;
+}
+
+.item-list .anime-title {
+  font-weight: 600;
+  color: #337ab7;
+  font-size: 1.3em;
+  line-height: 100%;
+}
+
+.item-list .anime-info {
+  font-size: 1.7em;
+}
+
+.item-list .label-item {
+  font-weight: 600;
+  color: #667B82;
+}
+
+.item-list .anime-delete {
+  font-size: 1.2em;
+}
+
+.item-list .anime-date-aired {
+  font-style: italic;
 }
